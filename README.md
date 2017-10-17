@@ -1,4 +1,4 @@
-# CUMC_Data_Science_Group
+# CUMC\_Data\_Science\_Group
 
 Fall 2017
 
@@ -6,8 +6,8 @@ Our goal is to learn data science, either using biomedical data sets or other op
 
 * Structured Learning
 
-* Projects
+  * In Structured Learning, we are going through the videos in the courses of the Data Science Specialization on Coursera to expose people to R and basics for completing a project.
 
-    In Structured Learning, we are going through the videos in the courses of the Data Science Specialization on Coursera to expose people to R and basics for completing a project.
+* Projects
     
-    The Project will be devised by a group of people towards a common end goal. The objective is to learn but the end "product" would be something that anyone can view or read, and will be put in this repository.
+  * The Project will be devised by a group of people towards a common end goal. The objective is to learn but the end "product" would be something that anyone can view or read, and will be put in this repository.

@@ -4,4 +4,4 @@
 #                    theme="Spacelab", highlight="Sunburst",
 #                    theme.chooser=T,highlight.chooser = T, menu=T)
 #                  )
-rmarkdown::render('index.Rmd')
+#rmarkdown::render('index.Rmd')

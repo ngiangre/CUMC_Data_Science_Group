@@ -13,26 +13,64 @@
       <h1>CUMC Data Science Group</h1>
       <p>We are a group of biomedical scientists learning and doing data science. Check back to see the projects we've been working on!</p>
    </div>
+   
+   <!-- START NAVIGATION BAR-->
+<nav class="navbar navbar-default page-scroll" role="navigation">  
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+   </div>
+   <div class="collapse navbar-collapse  navbar-ex1-collapse">
+      <ul class="navbar navbar-nav navbar-center">
+        <li><a href="">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#group">Group</a></li>
+      </ul>
+  </div>
+</nav>
+<!-- END NAVIGATION BAR-->
+
    <div class="container">
-      <div class="row">
-         <div class="col-lg-2">
-         </div>
-         <a href="index.html">
-            <div class="col-lg-8">
-               <div class="well">
-                     <h2 align="center">Unsupervised Learning of CyTof Data</h2>
-                     <img src="cytof_clustering.png" alt="CyTof Clustering" height="200" width="300">
-                     <div align="right" style="position: relative; float: right;">
-                        This is a placeholder for the notebook description. 
-                     </div>
-               </div>
+     <div class="row text-center" id="projects">
+      <h2>Projects</h2>
+        <div class="col-sm-4">
+          <a href="#portfolioModal-10" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <h3>Machine Learning of the T-cell Repertiore</h3>
+              </div>
             </div>
-         </a>
-         <a>            
-            <div class="col-lg-8">
+            <img src="cytof_clustering.png" class="img-responsive" alt="CyTof heatmap" height="200" width="300">
+          </a>    
+        </div>
+        <div class="col-sm-4">
+          <a href="#portfolioModal-10" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <h3>Predicting Plane Ticket Prices</h3>
+              </div>
             </div>
-         </a>
-      </div>
+            <img src="plane.gif" class="img-responsive" alt="Plane" height="200" width="300">
+          </a>    
+        </div>
+        <div class="col-sm-4">
+          <a href="#portfolioModal-10" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <h3>Machine Learning of Neural Activation</h3>
+              </div>
+            </div>
+            <img src="neuron.png" class="img-responsive" alt="Neuron" height="200" width="300">
+          </a>    
+        </div>
+     </div>
+     <div class="row text-center" id="group">
+       <h2>Group</h2>
+     </div>
    </div>
 </body>
 </html>
